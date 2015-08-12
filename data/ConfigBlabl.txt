@@ -1,0 +1,51 @@
+; BlablLauncher
+; Configuration file for BlablLauncher.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; GENERAL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Awesomenauts]
+; Indicate the path to the Awesomenauts executable below.
+
+Bin = Awesomenauts.exe
+Dir = C:\Program Files (x86)\Steam\SteamApps\common\Awesomenauts
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BINDINGS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Almost any key on your keyboard can be bound to a chat message.              ;
+; enter the optional modifier key ('Alt', 'Ctrl' or 'Shift') followed by a '+' ;
+; sign and your main key.                                                      ;
+; However, to avoid disrupting gameplay, try avoiding keys that get pressed in ;
+; other contexts (such as letters and arrow keys).                             ;
+; Keys: 1-9, A-Z, F1-F11, Down/Left/Right/Up, Tab, Back, Enter, Clear, Pause,  ;
+; Space, PgUp, PgDown, End, Home, Insert, Delete                               ;
+; Key names are case-insensitive.                                              ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[GlobalBindings]
+; Place your global chat bindings below.
+
+Home = Good luck, have fun.
+End = Good game, well played.
+Delete = Sorry, gotta go. :/
+
+Alt+1 = Thanks.
+Alt+2 = Sorry.
+Alt+3 = Oops.
+Alt+4 = Nicely done!
+Alt+5 = XD
+
+[TeamBindings]
+; Place your team chat bindings below.
+
+Insert = Going for Solar Boss.
+
+Ctrl+1 = Thanks.
+Ctrl+2 = Sorry.
+Ctrl+3 = Oops.
+Ctrl+4 = Nicely done!
+Ctrl+5 = XD
+
+Ctrl+PgUp = Go to TOP.
+Ctrl+PgDown = Go to BOTTOM.
+
+F1 = Stealthing.
+F2 = I need healing, please!
