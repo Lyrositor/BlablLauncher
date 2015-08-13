@@ -4,10 +4,14 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; GENERAL ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [Awesomenauts]
-; Indicate the path to the Awesomenauts executable below.
+; Indicate the path to the Awesomenauts executable below, if not running Blabl
+; from the Awesomenauts directory.
+; Note 1: Bin should point to the full path to the Awesomenauts executable (can
+; be an absolute or relative path).
+; Note 2: If you place Blabl in your Awesomenauts, Dir can be a period.
 
 Bin = Awesomenauts.exe
-Dir = C:\Program Files (x86)\Steam\SteamApps\common\Awesomenauts
+Dir = .
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; BINDINGS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Almost any key on your keyboard can be bound to a chat message.              ;

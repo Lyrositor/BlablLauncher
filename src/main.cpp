@@ -16,9 +16,9 @@ const char* BLABL_CONFIG = "ConfigBlabl.txt";
 const char* DEFAULT_BIN = "Awesomenauts.exe";
 
 /**
- * The default directory to look for the binary.
+ * The default working directory (by default this is the current one).
  */
-const char* DEFAULT_DIR = "C:\\Program Files (x86)\\Steam\\SteamApps\\common\\Awesomenauts";
+const char* DEFAULT_DIR = ".";
 
 /**
  * Launches Awesomenauts, registers the chat binds and listens for key events.
